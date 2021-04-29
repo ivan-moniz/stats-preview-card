@@ -32,19 +32,19 @@ body {
 
 .container {
   display: flex;
-  width: 800px;
+  width: 900px;
   height: 330px;
   background-color: var(--cardBaground);
   border-radius: 6px;
 }
 
 .container__left .container__title {
-  padding: 3rem 8rem 1rem 3rem;
+  padding: 3rem 5rem 1rem 3rem;
   color: var(--white);
 }
 
 .container__left .container__description {
-  padding: 0 7rem 0rem 3rem;
+  padding: 0 3rem 0rem 3rem;
   color: var(--transparent2);
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
@@ -75,6 +75,9 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+.container__right {
+  flex: 950px;
+}
 
 .container__right > img {
   object-fit: fill;
@@ -86,13 +89,13 @@ body {
 
 .container__right::after {
   content: "";
-  width: 19.3%;
-  height: 50%;
+  width: 31.5%;
+  height: 49.8%;
   background-color: var(--softViolet);
   position: absolute;
   top: 10.4rem;
-  left: 51.2rem;
+  left: 43.9rem;
   z-index: 5;
   border-radius: 0 6px 6px 0;
-  opacity: .4;
+  opacity: .5;
 }
