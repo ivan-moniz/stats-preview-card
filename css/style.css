@@ -81,7 +81,7 @@ body {
 }
 
 .container__right {
-  background-image: url("/images/image-header-desktop.jpg");
+  background-image: url("../images/image-header-desktop.jpg");
   background-repeat: no-repeat;
   background-position: -20px 0px;
   object-fit: cover;
@@ -140,7 +140,7 @@ body {
   }
 
   .container__right {
-    background-image: url("/images/image-header-mobile.jpg");
+    background-image: url("../images/image-header-mobile.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 6px 6px 0 0;
